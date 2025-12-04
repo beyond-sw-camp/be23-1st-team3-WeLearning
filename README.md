@@ -165,35 +165,35 @@
 <summary>회원</summary>
 <div markdown="1">
   
-<img width="1648" height="590" alt="image" src="https://github.com/user-attachments/assets/6fa0f834-c529-4d5e-b7dd-f08aa7aad2d1" />
+<img width="1648" height="590" alt="image" src="./Images/요구사항_명세서_회원.jpg" />
 
 </div>
 </details>
 
 <details>
-<summary>게시물/대여신청/카테고리</summary>
+<summary>강의</summary>
 <div markdown="1">
   
-<img width="1689" height="508" alt="image" src="https://github.com/user-attachments/assets/0bc19d32-7ffb-4e4a-843c-57a2a2dc82f9" />
+<img width="1689" height="508" alt="image" src="./Images/요구사항_명세서_강의의.jpg" />
 
 
 </div>
 </details>
 
 <details>
-<summary>문의/쪽지</summary>
+<summary>채용공고</summary>
 <div markdown="1">
   
-<img width="1685" height="542" alt="image" src="https://github.com/user-attachments/assets/838726ad-4c62-4c6c-93d5-19c5407c33fc" />
+<img width="1685" height="542" alt="image" src="./Images/요구사항_명세서_채용공고.jpg" />
 
 </div>
 </details>
 
 <details>
-<summary>신고/블랙리스트</summary>
+<summary>커뮤니티</summary>
 <div markdown="1">
   
-<img width="1657" height="447" alt="image" src="https://github.com/user-attachments/assets/a970c574-9d3a-43b3-bd2f-968040a8c7a6" />
+<img width="1657" height="447" alt="image" src="./Images/요구사항_명세서_회원.jpg" />
 
 </div>
 </details>
