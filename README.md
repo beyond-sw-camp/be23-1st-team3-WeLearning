@@ -15,7 +15,7 @@
         <br />
         <b>이다은</b>
         <br />
-        <a href="https://github.com/">@</a>
+        <a href="https://github.com/">@leeda973</a>
       </td>
       <td align="center">
         <img src="./Images/박세민.png" style="width: 170px; height: 150px; object-fit: cover; border-radius: 50%;" />

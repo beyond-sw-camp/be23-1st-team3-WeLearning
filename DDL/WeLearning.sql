@@ -1,6 +1,7 @@
 CREATE DATABASE welearning;
 
 
+
 CREATE TABLE user (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL UNIQUE,
@@ -26,7 +27,7 @@ CREATE TABLE course (
     ins_id BIGINT NOT NULL,
     title VARCHAR(255) NOT NULL,
     detail VARCHAR(255) NOT NULL,
-    price VARCHAR(3000) NOT NULL,
+    price BIGINT NOT NULL,
     create_time DATETIME DEFAULT CURRENT_TIMESTAMP(),
     photo VARCHAR(255),
     cos_length BIGINT NOT NULL,
@@ -139,4 +140,13 @@ CREATE TABLE review (
     contents VARCHAR(255) NOT NULL,
     FOREIGN KEY (user_id) REFERENCES user(id),
     FOREIGN KEY (cos_id) REFERENCES course(id)
+);
+CREATE TABLE comment (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    post_id BIGINT NOT NULL,
+    contents VARCHAR(255) NOT NULL,
+    refer_to BIGINT,
+    FOREIGN KEY (user_id) REFERENCES user(id),
+    FOREIGN KEY (post_id) REFERENCES post(id)
 );
