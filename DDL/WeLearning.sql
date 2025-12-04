@@ -145,7 +145,7 @@ CREATE TABLE comment (
     user_id BIGINT NOT NULL,
     post_id BIGINT NOT NULL,
     contents VARCHAR(255) NOT NULL,
-    refer_to VARCHAR(255) NULL,
+    refer_to VARCHAR(255),
     FOREIGN KEY (user_id) REFERENCES user(id)
     FOREIGN KEY (post_id) REFERENCES post(id)
 );
