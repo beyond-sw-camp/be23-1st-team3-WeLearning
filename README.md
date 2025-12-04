@@ -15,28 +15,28 @@
         <br />
         <b>이다은</b>
         <br />
-        <a href="https://github.com/qew032032">@qew032032</a>
+        <a href="https://github.com/">@</a>
       </td>
       <td align="center">
         <img src="./images/teamimage/pjm.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>박세민</b>
         <br />
-        <a href="https://github.com/Jae-yeol1">@PPoTTO_Meow</a>
+        <a href="https://github.com/">@</a>
       </td>
       <td align="center">
         <img src="./images/teamimage/hjh.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>이병찬</b>
         <br />
-        <a href="https://github.com/Apeirogon99">@hwajh5229</a>
+        <a href="https://github.com/2001056">@2001056</a>
       </td>
       <td align="center">
         <img src="./images/teamimage/kth.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>조현준</b>
         <br />
-        <a href="https://github.com/ikt-kim">@ikth-kim</a>
+        <a href="https://github.com/chohj2614">@chohj2614</a>
       </td>
     </tr>
   </table>
