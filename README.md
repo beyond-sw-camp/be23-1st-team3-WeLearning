@@ -18,14 +18,14 @@
         <a href="https://github.com/">@</a>
       </td>
       <td align="center">
-        <img src="./Images/박세민.png" style="width: 190px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <img src="./Images/박세민.png" style="width: 170px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>박세민</b>
         <br />
         <a href="https://github.com/">@semin980520</a>
       </td>
       <td align="center">
-        <img src="./Images/이병찬.png" style="width: 190px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <img src="./Images/이병찬.png" style="width: 170px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>이병찬</b>
         <br />
@@ -174,7 +174,7 @@
 <summary>강의</summary>
 <div markdown="1">
   
-<img width="1689" height="508" alt="image" src="./Images/요구사항_명세서_강의의.jpg" />
+<img width="1689" height="508" alt="image" src="./Images/요구사항_명세서_강의.jpg" />
 
 
 </div>
@@ -193,7 +193,7 @@
 <summary>커뮤니티</summary>
 <div markdown="1">
   
-<img width="1657" height="447" alt="image" src="./Images/요구사항_명세서_회원.jpg" />
+<img width="1657" height="447" alt="image" src="./Images/요구사항_명세서_커뮤니티.jpg" />
 
 </div>
 </details>
