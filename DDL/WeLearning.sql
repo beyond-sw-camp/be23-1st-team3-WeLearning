@@ -1,4 +1,5 @@
 CREATE DATABASE SCHEMA welearning;
+
 CREATE TABLE user (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL UNIQUE,
@@ -64,6 +65,8 @@ CREATE TABLE orders (
 CREATE TABLE order_detail ( 
     ord_id BIGINT NOT NULL,
     cos_id BIGINT NOT NULL,
+    price BIGINT NOT NULL,
+    payment_time DATETIME DEFAULT CURRENT_TIMESTAMP(),
     PRIMARY KEY (ord_id,cos_id),
     FOREIGN KEY (ord_id) REFERENCES orders(id),
     FOREIGN KEY (cos_id) REFERENCES course(id)

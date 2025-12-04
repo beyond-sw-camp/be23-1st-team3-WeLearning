@@ -1,3 +1,49 @@
+# 🚀 WeLearning
+
+<p align="center">
+  <img src="Images/브랜드 이미지.png" alt="[로고]" width="400"/>
+</p>
+
+
+## 👤 팀원
+
+<div align="center">
+<table border="0" style="border: none; width: 80%;">
+    <tr>
+      <td align="center">
+        <img src="./images/teamimage/ysw.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <br />
+        <b>이다은</b>
+        <br />
+        <a href="https://github.com/">@</a>
+      </td>
+      <td align="center">
+        <img src="./images/teamimage/pjm.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <br />
+        <b>박세민</b>
+        <br />
+        <a href="https://github.com/">@</a>
+      </td>
+      <td align="center">
+        <img src="./images/teamimage/hjh.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <br />
+        <b>이병찬</b>
+        <br />
+        <a href="https://github.com/2001056">@2001056</a>
+      </td>
+      <td align="center">
+        <img src="./images/teamimage/kth.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <br />
+        <b>조현준</b>
+        <br />
+        <a href="https://github.com/chohj2614">@chohj2614</a>
+      </td>
+    </tr>
+  </table>
+
+
+</div>
+
 # 목차
 
 1. [프로젝트 개요](#1-프로젝트-개요)  
