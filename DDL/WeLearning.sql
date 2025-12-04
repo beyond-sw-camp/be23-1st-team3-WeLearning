@@ -136,7 +136,7 @@ CREATE TABLE review (
     cos_id BIGINT NOT NULL,
     create_time DATETIME DEFAULT CURRENT_TIMESTAMP(),
     rating BIGINT NOT NULL, 
-    comment VARCHAR(255) NOT NULL,
+    contents VARCHAR(255) NOT NULL,
     FOREIGN KEY (user_id) REFERENCES user(id),
     FOREIGN KEY (cos_id) REFERENCES course(id)
 );
