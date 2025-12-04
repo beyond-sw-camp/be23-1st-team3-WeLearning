@@ -1,7 +1,7 @@
 # 🚀 WeLearning
 
 <p align="center">
-  <img src="images/브랜드 이미지" alt="[로고]" width="400"/>
+  <img src="images/브랜드 이미지.png" alt="[로고]" width="400"/>
 </p>
 
 
