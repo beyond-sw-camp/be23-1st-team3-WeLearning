@@ -152,7 +152,7 @@
 <summary>UseCase Diagram</summary>
 <div markdown="1">
 
-<img width="718" height="617" alt="image (1)" src="./Images/uml.png" />
+<img width="718" height="617" alt="image (1)" src="Images/uml.png.png" />
 
 </div>
 </details>
