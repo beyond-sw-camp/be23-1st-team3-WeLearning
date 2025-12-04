@@ -138,6 +138,7 @@ CREATE TABLE post (
     create_time DATETIME CURRENT_TIMESTAMP(),
     solved ENUM('완료','진행중') NOT NULL DEFAULT '진행중',
     post_type ENUM('질문','스터디') NOT NULL DEFAULT '질문',
+    views BIGINT NOT NULL DEFAULT 0,
     FOREIGN KEY (user_id) REFERENCES user(id)
 );
 CREATE TABLE comment (
