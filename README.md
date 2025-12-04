@@ -1,41 +1,40 @@
 # 🚀 WeLearning
 
 <p align="center">
-  <img src="images/브랜드 이미지.png" alt="[로고]" width="400"/>
+  <img src="Images/브랜드 이미지.png" alt="[로고]" width="400"/>
 </p>
 
 
 ## 👤 팀원
 
 <div align="center">
-
 <table border="0" style="border: none; width: 80%;">
     <tr>
       <td align="center">
         <img src="./images/teamimage/ysw.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
-        <b>윤성원</b>
+        <b>이다은</b>
         <br />
         <a href="https://github.com/qew032032">@qew032032</a>
       </td>
       <td align="center">
         <img src="./images/teamimage/pjm.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
-        <b>박지민</b>
+        <b>박세민</b>
         <br />
         <a href="https://github.com/Jae-yeol1">@PPoTTO_Meow</a>
       </td>
       <td align="center">
         <img src="./images/teamimage/hjh.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
-        <b>황자현</b>
+        <b>이병찬</b>
         <br />
         <a href="https://github.com/Apeirogon99">@hwajh5229</a>
       </td>
       <td align="center">
         <img src="./images/teamimage/kth.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
-        <b>김태형</b>
+        <b>조현준</b>
         <br />
         <a href="https://github.com/ikt-kim">@ikth-kim</a>
       </td>
