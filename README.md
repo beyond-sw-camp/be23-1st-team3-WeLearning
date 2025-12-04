@@ -152,7 +152,7 @@
 <summary>UseCase Diagram</summary>
 <div markdown="1">
 
-<img width="718" height="617" alt="image (1)" src="https://github.com/user-attachments/assets/4fd6dad2-874b-4cd0-bfe4-2c3083a57226" />
+<img width="718" height="617" alt="image (1)" src="./Images/uml.png" />
 
 </div>
 </details>
