@@ -1,3 +1,50 @@
+# 🚀 WeLearning
+
+<p align="center">
+  <img src="images/브랜드 이미지" alt="[로고]" width="400"/>
+</p>
+
+
+## 👤 팀원
+
+<div align="center">
+
+<table border="0" style="border: none; width: 80%;">
+    <tr>
+      <td align="center">
+        <img src="./images/teamimage/ysw.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <br />
+        <b>윤성원</b>
+        <br />
+        <a href="https://github.com/qew032032">@qew032032</a>
+      </td>
+      <td align="center">
+        <img src="./images/teamimage/pjm.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <br />
+        <b>박지민</b>
+        <br />
+        <a href="https://github.com/Jae-yeol1">@PPoTTO_Meow</a>
+      </td>
+      <td align="center">
+        <img src="./images/teamimage/hjh.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <br />
+        <b>황자현</b>
+        <br />
+        <a href="https://github.com/Apeirogon99">@hwajh5229</a>
+      </td>
+      <td align="center">
+        <img src="./images/teamimage/kth.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <br />
+        <b>김태형</b>
+        <br />
+        <a href="https://github.com/ikt-kim">@ikth-kim</a>
+      </td>
+    </tr>
+  </table>
+
+
+</div>
+
 # 목차
 
 1. [프로젝트 개요](#1-프로젝트-개요)  
