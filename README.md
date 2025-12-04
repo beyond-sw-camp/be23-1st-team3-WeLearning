@@ -22,7 +22,7 @@
         <br />
         <b>박세민</b>
         <br />
-        <a href="https://github.com/">@</a>
+        <a href="https://github.com/">@semin980520</a>
       </td>
       <td align="center">
         <img src="./Images/이병찬.png" style="width: 190px; height: 150px; object-fit: cover; border-radius: 50%;" />
