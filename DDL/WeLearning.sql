@@ -53,7 +53,7 @@ CREATE TABLE cos_progress (
 CREATE TABLE orders (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     user_id BIGINT NOT NULL,
-    status ENUM('결제완료','환불') DEFAULT '결제완료',
+    ord_status ENUM('결제완료','환불') DEFAULT '결제완료',
     total BIGINT NOT NULL,
     method ENUM('카드','계좌이체') NOT NULL,
     pay_info BIGINT NOT NULL,
@@ -132,6 +132,7 @@ CREATE TABLE review (
     FOREIGN KEY (cos_id) REFERENCES course(id)
 );
     
+
 
 
 
