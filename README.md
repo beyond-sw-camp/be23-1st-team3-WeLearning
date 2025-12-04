@@ -11,28 +11,28 @@
 <table border="0" style="border: none; width: 80%;">
     <tr>
       <td align="center">
-        <img src="./Images/이다은.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <img src="./Images/이다은.png" style="width: 160px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>이다은</b>
         <br />
         <a href="https://github.com/">@</a>
       </td>
       <td align="center">
-        <img src="./Images/박세민.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <img src="./Images/박세민.png" style="width: 160px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>박세민</b>
         <br />
         <a href="https://github.com/">@</a>
       </td>
       <td align="center">
-        <img src="./Images/이병찬.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <img src="./Images/이병찬.png" style="width: 160px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>이병찬</b>
         <br />
         <a href="https://github.com/2001056">@2001056</a>
       </td>
       <td align="center">
-        <img src="./Images/조현준.png" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" />
+        <img src="./Images/조현준.png" style="width: 160px; height: 150px; object-fit: cover; border-radius: 50%;" />
         <br />
         <b>조현준</b>
         <br />
