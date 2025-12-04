@@ -165,15 +165,6 @@
 
 <br>
 
-# 7. DB 서버 구축 (리플리케이션)
-
-<img width="1500" alt="image" src="https://github.com/user-attachments/assets/a56147cb-9a13-4423-af7f-98cf31c17b2e" />
-
-
-
-
-
-
 
 
 
