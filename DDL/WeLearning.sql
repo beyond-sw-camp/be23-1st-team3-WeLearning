@@ -1,4 +1,5 @@
-CREATE DATABASE SCHEMA welearning;
+CREATE DATABASE welearning;
+
 
 CREATE TABLE user (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
@@ -65,8 +66,6 @@ CREATE TABLE orders (
 CREATE TABLE order_detail ( 
     ord_id BIGINT NOT NULL,
     cos_id BIGINT NOT NULL,
-    price BIGINT NOT NULL,
-    payment_time DATETIME DEFAULT CURRENT_TIMESTAMP(),
     PRIMARY KEY (ord_id,cos_id),
     FOREIGN KEY (ord_id) REFERENCES orders(id),
     FOREIGN KEY (cos_id) REFERENCES course(id)
@@ -78,7 +77,17 @@ CREATE TABLE cart (
     total_price BIGINT NOT NULL,
     FOREIGN KEY (user_id) REFERENCES user(id)
 );
-
+CREATE TABLE post (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    contents VARCHAR(3000) NOT NULL,
+    create_time DATETIME DEFAULT CURRENT_TIMESTAMP(),
+    solved ENUM('완료','진행중') NOT NULL DEFAULT '진행중',
+    post_type ENUM('질문','스터디') NOT NULL DEFAULT '질문',
+    views BIGINT NOT NULL DEFAULT 0,
+    FOREIGN KEY (user_id) REFERENCES user(id)
+);
 CREATE TABLE cart_detail (
     cart_id BIGINT NOT NULL,
     cos_id BIGINT NOT NULL,
@@ -93,6 +102,7 @@ CREATE TABLE cos_video (
     cos_id BIGINT NOT NULL,
     title VARCHAR(255) NOT NULL,
     vid_lenth BIGINT NOT NULL,
+    views BIGINT DEFAULT 0,
     link VARCHAR(3000) NOT NULL,
     FOREIGN KEY (cos_id) REFERENCES course(id)
 );
@@ -126,27 +136,7 @@ CREATE TABLE review (
     cos_id BIGINT NOT NULL,
     create_time DATETIME DEFAULT CURRENT_TIMESTAMP(),
     rating BIGINT NOT NULL, 
-    contents VARCHAR(255) NOT NULL,
+    comment VARCHAR(255) NOT NULL,
     FOREIGN KEY (user_id) REFERENCES user(id),
     FOREIGN KEY (cos_id) REFERENCES course(id)
-);
-CREATE TABLE post (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    user_id BIGINT NOT NULL,
-    title VARCHAR(255) NOT NULL,
-    contents VARCHAR(3000) NOT NULL,
-    create_time DATETIME CURRENT_TIMESTAMP(),
-    solved ENUM('완료','진행중') NOT NULL DEFAULT '진행중',
-    post_type ENUM('질문','스터디') NOT NULL DEFAULT '질문',
-    views BIGINT NOT NULL DEFAULT 0,
-    FOREIGN KEY (user_id) REFERENCES user(id)
-);
-CREATE TABLE comment (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    user_id BIGINT NOT NULL,
-    post_id BIGINT NOT NULL,
-    contents VARCHAR(255) NOT NULL,
-    refer_to VARCHAR(255),
-    FOREIGN KEY (user_id) REFERENCES user(id)
-    FOREIGN KEY (post_id) REFERENCES post(id)
 );
