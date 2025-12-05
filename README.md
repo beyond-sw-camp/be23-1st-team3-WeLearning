@@ -174,7 +174,7 @@
 # 4. WBS
 
 <details>
-<summary>WBS</summary>
+<summary>📜WBS</summary>
 <div markdown="1">
 
 <img width="1000" height="845" alt="image" src="Images/dbWBS.png" />
@@ -187,7 +187,7 @@
 # 5. UML
 
 <details>
-<summary>UseCase Diagram</summary>
+<summary>🎨UseCase Diagram</summary>
 <div markdown="1">
 
 <img width="718" height="1100" alt="image (1)" src="Images/uml.png.png" />
@@ -200,7 +200,7 @@
 # 6. 요구사항 명세서
 
 <details>
-<summary>회원</summary>
+<summary>👥회원</summary>
 <div markdown="1">
   
 <img width="1648" height="590" alt="image" src="./Images/요구사항_명세서_회원.jpg" />
@@ -209,7 +209,7 @@
 </details>
 
 <details>
-<summary>강의</summary>
+<summary>🎓강의</summary>
 <div markdown="1">
   
 <img width="1689" height="508" alt="image" src="./Images/요구사항_명세서_강의.jpg" />
@@ -219,7 +219,7 @@
 </details>
 
 <details>
-<summary>채용공고</summary>
+<summary>📢채용공고</summary>
 <div markdown="1">
   
 <img width="1685" height="542" alt="image" src="./Images/요구사항_명세서_채용공고.jpg" />
@@ -228,7 +228,7 @@
 </details>
 
 <details>
-<summary>커뮤니티</summary>
+<summary>💬커뮤니티</summary>
 <div markdown="1">
   
 <img width="1657" height="447" alt="image" src="./Images/요구사항_명세서_커뮤니티.jpg" />
@@ -240,7 +240,7 @@
 
 # 7. DB모델링
 <details>
-<summary>ERD</summary>
+<summary>🧱ERD</summary>
 <div markdown="1">
 
 <img width="1543" height="1094" alt="image (3)" src="Images/DBERDWeLearning.png" />
@@ -249,7 +249,8 @@
 </details>
 
 <br>
-# 8. DB 설계
+
+ # 8. DB 설계
 
 # 9. 테스트 케이스
 
@@ -387,7 +388,7 @@
 </details>
 
 <details>
-    <summary>리뷰쓰기 프로시저</summary>
+    <summary>📝리뷰쓰기 프로시저</summary>
     <ul>
         <li><details>
             <summary>리뷰쓰기 전 테이블</summary>
@@ -417,7 +418,7 @@
 </details>
 
 <details>
-    <summary>리뷰쓰기에러 프로시저</summary>
+    <summary>📝리뷰쓰기에러 프로시저</summary>
     <ul>
         <li><details>
             <summary>강사가 리뷰를 쓰는 경우</summary>
