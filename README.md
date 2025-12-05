@@ -254,7 +254,7 @@
 # 9. 테스트 케이스
 
 <details>
-  <summary>▶ 로그인</summary>
+  <summary>로그인</summary>
 
 <details>
 <summary>로그인 성공/실패</summary>
