@@ -32,7 +32,8 @@ CREATE TABLE course (
     photo VARCHAR(255),
     cos_length BIGINT NOT NULL,
     rating DECIMAL(4, 2) NOT NULL,
-    students BIGINT DEFAULT 0
+    students BIGINT DEFAULT 0,
+    FOREIGN KEY (ins_id) REFERENCES instructors(id)
 );
 
 CREATE TABLE cos_tag (
