@@ -256,16 +256,16 @@
 <details>
   <summary>로그인</summary>
 
-<details>
-  <summary>  로그인 성공/실패</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/로그인확인code.png" />
-  <br>
-<img width="450" alt="image" src="Images/로그인성공이미지.png" />
-<img width="450" alt="image" src="Images/로그인실패이미지.png" />
-
-</div>
-  </details>
+  <details>
+    <summary>  로그인 성공/실패</summary>
+  <div markdown="1">
+  <img width="450" alt="image" src="Images/로그인확인code.png" />
+    <br>
+  <img width="450" alt="image" src="Images/로그인성공이미지.png" />
+  <img width="450" alt="image" src="Images/로그인실패이미지.png" />
+  
+  </div>
+    </details>
   
 </details>
 
