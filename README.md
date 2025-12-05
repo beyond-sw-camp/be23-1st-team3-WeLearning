@@ -127,7 +127,7 @@
 <summary>WBS</summary>
 <div markdown="1">
 
-<img width="1053" height="447" alt="image" src="https://github.com/user-attachments/assets/2695dee4-4b34-47fa-8416-6cd6407d5db8" />
+<img width="1000" height="845" alt="image" src="Images/dbWBS.png" />
 
 </div>
 </details>
