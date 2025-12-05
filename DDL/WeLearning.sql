@@ -17,7 +17,7 @@ CREATE TABLE instructors (
     user_id BIGINT NOT NULL,
     profile VARCHAR(255) NOT NULL,
     career VARCHAR(3000),
-    rating DECIMAL NOT NULL,
+    rating DECIMAL(4, 2) NOT NULL,
     students BIGINT DEFAULT 0,
     FOREIGN KEY (user_id) REFERENCES user(id)
 );
@@ -31,7 +31,7 @@ CREATE TABLE course (
     create_time DATETIME DEFAULT CURRENT_TIMESTAMP(),
     photo VARCHAR(255),
     cos_length BIGINT NOT NULL,
-    rating DECIMAL NOT NULL,
+    rating DECIMAL(4, 2) NOT NULL,
     students BIGINT DEFAULT 0
 );
 
@@ -78,6 +78,7 @@ CREATE TABLE cart (
     total_price BIGINT NOT NULL,
     FOREIGN KEY (user_id) REFERENCES user(id)
 );
+
 CREATE TABLE post (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     user_id BIGINT NOT NULL,
@@ -89,6 +90,7 @@ CREATE TABLE post (
     views BIGINT NOT NULL DEFAULT 0,
     FOREIGN KEY (user_id) REFERENCES user(id)
 );
+
 CREATE TABLE cart_detail (
     cart_id BIGINT NOT NULL,
     cos_id BIGINT NOT NULL,
@@ -107,6 +109,7 @@ CREATE TABLE cos_video (
     link VARCHAR(3000) NOT NULL,
     FOREIGN KEY (cos_id) REFERENCES course(id)
 );
+
 CREATE TABLE view_time (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     vid_id BIGINT NOT NULL,
@@ -115,6 +118,7 @@ CREATE TABLE view_time (
     FOREIGN KEY (vid_id) REFERENCES cos_video(id),
     FOREIGN KEY (user_id) REFERENCES user(id)
 );
+
 CREATE TABLE job (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -136,11 +140,12 @@ CREATE TABLE review (
     user_id BIGINT NOT NULL,
     cos_id BIGINT NOT NULL,
     create_time DATETIME DEFAULT CURRENT_TIMESTAMP(),
-    rating BIGINT NOT NULL, 
+    rating BIGINT NOT NULL,
     contents VARCHAR(255) NOT NULL,
     FOREIGN KEY (user_id) REFERENCES user(id),
     FOREIGN KEY (cos_id) REFERENCES course(id)
 );
+
 CREATE TABLE comment (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     user_id BIGINT NOT NULL,
