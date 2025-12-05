@@ -124,14 +124,47 @@
 
 # 3. 기술스택
 
-<div >
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-   <img src="https://img.shields.io/badge/Draw.io-F08705?style=for-the-badge&logo=diagrams.net&logoColor=white" />
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/ERD_Cloud-0A75FF?style=for-the-badge&logo=erdcloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</div>
+
+📌 개발 환경
+---
+
+🔧
+ DBMS
+<p>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
+</p>
+
+---
+
+📌
+ 협업 및 관리 도구
+🤝
+ 협업 도구
+<p>
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+</p>
+
+🗂
+ 버전 및 이슈 관리
+<p>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
+
+📊
+ 데이터 관리
+<p>
+  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/>
+</p>
+
+---
+
+📌
+ ERD 및 다이어그램 도구
+<p>
+  <img src="https://img.shields.io/badge/ERDCloud-1F4E79?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Draw.io-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white"/>
+</p>
 
 
 <br>
