@@ -250,8 +250,17 @@
 
 <br>
 
- # 8. DB 설계
+# 8. DB 설계
+<details>
+<summary>DB 설계</summary>
+<div markdown="1">
 
+<img width="300" height="845" alt="image" src="Images/db설계.png" />
+
+</div>
+</details>
+
+<br>
 # 9. 테스트 케이스
 
 <details>
@@ -382,30 +391,30 @@
             <summary>공고별 연관 카테고리 조회</summary>
             <div markdown="1">
                 <img width="450" alt="image" src="Images/공고 별 연관 카테고리조회.png" />
-            </div>
+              </div>
         </details></li>
     </ul>
-</details>
-
-<details>
-    <summary>📝리뷰쓰기 프로시저</summary>
+        </details>
+      <details>
+    <summary>📝
+리뷰쓰기 프로시저</summary>
     <ul>
         <li><details>
             <summary>리뷰쓰기 전 테이블</summary>
             <div markdown="1">
                 <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_유저.png" />
                 <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_전_강사.png" />
-                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_전_강의.png" />
+                <img width="550" alt="image" src="Images2/리뷰쓰기/리뷰_전_강의.png" />
                 <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_전_리뷰.png" />
                 <p>50%이상 강의 수강자임을 확인</p> <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_진도율.png" />
             </div>
-        </details></li>  
+        </details></li>
         <li><details>
             <summary>리뷰쓰기</summary>
             <div markdown="1">
                 <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_입력문_성공.png" />
             </div>
-        </details></li>      
+        </details></li>
         <li><details>
             <summary>리뷰 완료 후 테이블 확인</summary>
             <div markdown="1">
@@ -413,12 +422,12 @@
                 <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_후_강사.png" />
                 <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_후_강의.png" />
             </div>
-        </details></li>      
+        </details></li>
     </ul>
 </details>
-
 <details>
-    <summary>📝리뷰쓰기에러 프로시저</summary>
+    <summary>📝
+리뷰쓰기에러 프로시저</summary>
     <ul>
         <li><details>
             <summary>강사가 리뷰를 쓰는 경우</summary>
@@ -427,9 +436,91 @@
                 <br>
                 <img alt="image" src="Images2/리뷰쓰기/수강생아님_결과.png" />
             </div>
-        </details></li>  
+        </details></li>
         <li><details>
             <summary>없는 강의에 대한 리뷰 입력</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/없는강의_입력.png" />
+              <br>
+                <img alt="image" src="Images2/리뷰쓰기/없는강의_결과.png" />
+            </div>
+        </details></li>
+        <li><details>
+            <summary>잘못된 이메일 입력 후 리뷰작성</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/잘못된_이메일_입력.png" />
+              <br>
+                <img alt="image" src="Images2/리뷰쓰기/잘못된_이메일_입력_에러코드.png" />
+            </div>
+        </details></li>
+      <li><details>
+            <summary>평점 범위 초과 후 입력</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/잘못된_평점_입력.png" />
+              <br>
+                <img alt="image" src="Images2/리뷰쓰기/잘못된_평점_결과.png" />
+            </div>
+        </details></li>
+      <li><details>
+            <summary>진도율 50% 미만자가 리뷰 쓴 경우</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/진도율_미달_셋업.png" />
+              <img width="450" alt="image" src="Images2/리뷰쓰기/진도율_미달_입력.png" />
+              <br>
+                <img alt="image" src="Images2/리뷰쓰기/진도율_미달_결과.png" />
+            </div>
+        </details></li>
+    </ul>
+</details>
+
+
+<br>
+<br>
+        
+<details>
+    <summary>원댓글 입력</summary>
+    <ul>
+        <li><details>
+            <summary>원댓글 입력/결과</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/대댓글달기/원댓글_입력.png" />
+                <img alt="image" src="Images2/대댓글달기/원댓글_결과.png" />
+            </div>
+        </details></li>  
+        <li><details>
+            <summary>대댓글 쓰기</summary>
+            <div markdown="1">
+            <p>대댓글 쓰기 전</p>
+                <img width="450" alt="image" src="Images2/대댓글달기/대댓글_전.png" />
+            <p>대댓글 쓰기 전</p>
+                <img width="450" alt="image" src="Images2/대댓글달기/대댓글_입력.png" />
+                <img alt="image" src="Images2/대댓글달기/대댓글_결과.png" />
+            </div>
+        </details></li>      
+    </ul>
+</details>
+
+<details>
+    <summary>댓글 오류 발생 경우</summary>
+    <ul>
+      <li><details>
+            <summary>없는 글에 댓글 다는 경우</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/대댓글달기/없는글_댓글.png" />
+                <img width="450" alt="image" src="Images2/대댓글달기/없는글_댓글_입력.png" />
+                <img alt="image" src="Images2/대댓글달기/없는글_댓글_결과.png" />
+            </div>
+        </details></li>      
+        <li><details>
+            <summary>없는 댓글id에 대댓글 다는 경우</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/대댓글달기/없는_댓글id.png" />
+                <img width="450" alt="image" src="Images2/대댓글달기/없는_댓글id_입력.png" />
+                <img alt="image" src="Images2/대댓글달기/없는_댓글id_결과.png" />
+            </div>
+        </details></li>  
+        <li><details>
+            <summary>잘못된 이메일로 댓글 다는 경우</summary>
             <div markdown="1">
                 <img width="450" alt="image" src="Images2/리뷰쓰기/없는강의_입력.png" />
               <br>
@@ -439,31 +530,13 @@
         <li><details>
             <summary>잘못된 이메일 입력 후 리뷰작성</summary>
             <div markdown="1">
-                <img width="450" alt="image" src="Images2/리뷰쓰기/잘못된_이메일_입력.png" />
+                <img width="450" alt="image" src="Images2/대댓글달기/잘못된_이메일_입력.png" />
               <br>
-                <img alt="image" src="Images2/리뷰쓰기/잘못된_이메일_입력_에러코드.png" />
+                <img alt="image" src="Images2/대댓글달기/잘못된_이메일_결과.png" />
             </div>
         </details></li>      
-      <li><details>
-            <summary>평점 범위 초과 후 입력</summary>
-            <div markdown="1">
-                <img width="450" alt="image" src="Images2/리뷰쓰기/잘못된_평점_입력.png" />
-              <br>
-                <img alt="image" src="Images2/리뷰쓰기/잘못된_평점_결과.png" />
-            </div>
-        </details></li>  
-      <li><details>
-            <summary>진도율 50% 미만자가 리뷰 쓴 경우</summary>
-            <div markdown="1">
-                <img width="450" alt="image" src="Images2/리뷰쓰기/진도율_미달_셋업.png" />
-              <img width="450" alt="image" src="Images2/리뷰쓰기/진도율_미달_입력.png" />
-              <br>
-                <img alt="image" src="Images2/리뷰쓰기/진도율_미달_결과.png" />
-            </div>
-        </details></li>  
     </ul>
 </details>
-
 
 <br>
 <br>
