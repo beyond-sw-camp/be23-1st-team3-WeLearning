@@ -254,141 +254,136 @@
 # 9. 테스트 케이스
 
 <details>
-  <summary>로그인</summary>
-
-  <details>
-    <summary>  로그인 성공/실패</summary>
-  <div markdown="1">
-  <img width="450" alt="image" src="Images/로그인확인code.png" />
-    <br>
-  <img width="450" alt="image" src="Images/로그인성공이미지.png" />
-  <img width="450" alt="image" src="Images/로그인실패이미지.png" />
-  
-  </div>
-    </details>
-  
+    <summary>🔑 공통 기능 및 인증</summary>
+  <ul>    
+      <li><details>
+                <summary>로그인 성공/실패</summary>
+                <div markdown="1">
+                    <img width="450" alt="image" src="Images/로그인확인code.png" />
+                    <br>
+                    <img width="450" alt="image" src="Images/로그인성공이미지.png" />
+                    <img width="450" alt="image" src="Images/로그인실패이미지.png" />
+                </div>
+        </details></li>
+    </ul>    
+    <ul>
+        <li><details>
+            <summary>중복 이메일 가입 실패</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/중복 이메일 가입 실패.png" />
+            </div>
+        </details></li>
+    </ul>
+    <ul>
+        <li><details>
+            <summary>장바구니 목록 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/장바구니 목록조회.png" />
+            </div>
+        </details></li>
+    </ul>
+    
 </details>
 
 <details>
-<summary>글조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/글조회.png" />
-  
-</div>
+    <summary>📚 강의 및 수강생 관리 기능</summary>
+    <ul>
+        <li><details>
+            <summary>특정 강의 검색</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/특정강의 검색.png" />
+            </div>
+        </details></li>        
+        <li><details>
+            <summary>특정 강의 상세 검색</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/특정강의 상세검색.png" />
+            </div>
+        </details></li>
+    </ul>    
+    <ul>
+        <li><details>
+            <summary>특정 강의 평점 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/특정강의 평점조회.png" />
+            </div>
+        </details></li>        
+        <li><details>
+            <summary>특정 강의 리뷰 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/특정강의 리뷰조회.png" />
+            </div>
+        </details></li>
+    </ul>
+    <ul>
+        <li><details>
+            <summary>수강 신청한 목록 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/수강신청한 목록 조회.png" />
+            </div>
+        </details></li>        
+        <li><details>
+            <summary>수강생별 진도 확인</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/수강생 진도율 확인 코드.png" />
+                <br>
+                <img width="450" alt="image" src="Images/수강생 별 진도 확인.png" />
+            </div>
+        </details></li>   
+        <li><details>
+            <summary>수강 취소 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/수강취소 조회.png" />
+            </div>
+        </details></li>
+    </ul>
 </details>
 
 <details>
-<summary>게시글 내 댓글조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/게시글 내 댓글 조회.png" />
-  
-</div>
+    <summary>💬 커뮤니티 및 Q&A 기능</summary>
+    <ul>
+        <li><details>
+            <summary>글 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/글조회.png" />
+            </div>
+        </details></li> 
+        <li><details>
+            <summary>게시글 내 댓글 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/게시글 내 댓글 조회.png" />
+            </div>
+        </details></li>
+    </ul>
 </details>
-
 <details>
-<summary>특정강의 검색</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/특정강의 검색.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>특정강의 상세 검색</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/특정강의 상세검색.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>수강취소 조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/수강취소 조회.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>장바구니 목록조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/장바구니 목록조회.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>수강신청한 목록 조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/수강신청한 목록 조회.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>특정 강의 평점 조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/특정강의 평점조회.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>특정강의 리뷰조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/특정강의 리뷰조회.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>수강생별 진도 확인</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/수강생 진도율 확인 코드.png" />
-  <br>
-<img width="450" alt="image" src="Images/수강생 별 진도 확인.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>채용공고 조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/공고조회.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>채용공고 상세 조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/공고상세조회.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>조건별 공고 검색 기능</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/조건별로 공고 검색가능.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>공고별 연관 카테고리 조회</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/공고 별 연관 카테고리조회.png" />
-  
-</div>
-</details>
-
-<details>
-<summary>중복 이메일 가입 실패</summary>
-<div markdown="1">
-<img width="450" alt="image" src="Images/중복 이메일 가입 실패.png" />
-  
-</div>
+    <summary>🏢 채용 공고 및 연관 검색 기능</summary>
+    <ul>
+        <li><details>
+            <summary>채용 공고 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/공고조회.png" />
+            </div>
+        </details></li>  
+        <li><details>
+            <summary>채용 공고 상세 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/공고상세조회.png" />
+            </div>
+        </details></li>      
+        <li><details>
+            <summary>조건별 공고 검색 기능</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/조건별로 공고 검색가능.png" />
+            </div>
+        </details></li>      
+        <li><details>
+            <summary>공고별 연관 카테고리 조회</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images/공고 별 연관 카테고리조회.png" />
+            </div>
+        </details></li>
+    </ul>
 </details>
 
 
