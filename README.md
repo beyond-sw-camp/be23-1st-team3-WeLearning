@@ -359,7 +359,7 @@
 </details>
 
 <details>
-<summary>수강생 별 진도 확인</summary>
+<summary>수강생별 진도 확인</summary>
 <div markdown="1">
 <img width="450" alt="image" src="Images/수강생 별 진도 확인.png" />
   
@@ -374,5 +374,28 @@
 </div>
 </details>
 
+<details>
+<summary>채용공고 상세 조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/공고상세조회.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>조건별 공고 검색 기능</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/조건별로 공고 검색가능.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>공고별 연관 카테고리 조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/공고 별 연관 카테고리조회.png" />
+  
+</div>
+</details>
 <br>
 <br>
