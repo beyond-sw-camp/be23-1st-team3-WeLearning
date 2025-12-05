@@ -63,7 +63,9 @@
 
 7. [DB 모델링](#7-db모델링)
 
-8. [테스트 케이스](#8-테스트-케이스)   
+8. [DB 설계](#8-DB-설계)   
+
+9. [테스트 케이스](#9-테스트-케이스)   
    
 
 <br/>
@@ -247,9 +249,12 @@
 </details>
 
 <br>
+# 8. DB 설계
 
+# 9. 테스트 케이스
 
-# 8. 테스트 케이스
+<details>
+  <summary>▶ 로그인</summary>
 
 <details>
 <summary>로그인 성공/실패</summary>
@@ -260,6 +265,8 @@
 <img width="450" alt="image" src="Images/로그인실패이미지.png" />
 
 </div>
+  </details>
+  
 </details>
 
 <details>
