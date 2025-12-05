@@ -337,6 +337,8 @@
 <details>
 <summary>수강생별 진도 확인</summary>
 <div markdown="1">
+<img width="450" alt="image" src="Images/수강생 진도율 확인 코드.png" />
+  <br>
 <img width="450" alt="image" src="Images/수강생 별 진도 확인.png" />
   
 </div>
@@ -373,5 +375,16 @@
   
 </div>
 </details>
+
+<details>
+<summary>중복 이메일 가입 실패</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/중복 이메일 가입 실패.png" />
+  
+</div>
+</details>
+
+
+
 <br>
 <br>
