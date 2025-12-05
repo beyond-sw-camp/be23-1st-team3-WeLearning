@@ -1,17 +1,21 @@
 
 -- 강의 목록 검색------------
-SELECT id, title, rating, price FROM course 
-WHERE title LIKE '%[강좌명]%' 
-OR detail LIKE '%[카테고리]%' 
-OR ins_id = (SELECT id FROM instructors 
-WHERE user_id = (SELECT id FROM user WHERE name = '[강사명]'));
+SELECT
+    id,
+    title AS `제목`,
+    rating AS `평점`,
+    price AS `가격`
+FROM
+    course
+WHERE
+    title LIKE '%강의명%';
 ---------------------------
 
 
 -- 강의 상세 조회 -----------
 SELECT c.*, u.name AS instructor_name FROM course c 
 INNER JOIN instructors i ON c.ins_id = i.id 
-INNER JOIN user u ON i.user_id = u.id WHERE c.id = [강의_ID];
+INNER JOIN user u ON i.user_id = u.id WHERE c.title LIKE '%react%';
 ---------------------------
 
 -- 수강 취소 조회 -----------
@@ -36,31 +40,38 @@ WHERE o.id = [주문_ID];
 
 
 ------ 강의 평점 조회 ------
-SELECT id, title, rating FROM course WHERE name LIKE %[강의이름]%;
+SELECT id, title, rating FROM course WHERE title LIKE '%강의명%';
 -----------------------------
 
 
 ----- 강의 리뷰 조회 ----------
-SELECT u.name AS reviewer, r.rating, r.contents, r.create_time 
-FROM review r 
-INNER JOIN user u ON r.user_id = u.id 
-WHERE r.cos_name LIKE %[강의이름]% 
-ORDER BY r.create_time DESC;
+SELECT
+    u.name AS reviewer,r.rating,r.contents
+FROM review r
+INNER JOIN user u ON r.user_id = u.id
+INNER JOIN course c ON r.cos_id = c.id
+WHERE   c.title LIKE '%강의명%'
+ORDER BY
+    r.id DESC
+LIMIT 0, 200;
 ------------------------------
 
 ------ 특정 사용자가(내가) 쓴 리뷰 조회 --------
-SELECT c.title, r.rating, r.contents, r.create_time 
-FROM review r 
-INNER JOIN course c ON r.cos_id = c.id 
-WHERE r.user_email LIKE %[사용자_email]& 
-ORDER BY r.create_time DESC;
+SELECT c.title AS 강의_제목, r.rating AS 평점, r.contents AS 리뷰_내용
+FROM review r
+INNER JOIN course c ON r.cos_id = c.id
+INNER JOIN user u ON r.user_id = u.id
+WHERE
+    u.email LIKE '%유저 이메일%'
+ORDER BY
+    r.id DESC;
 ---------------------------------------------
 
 ----- 특정 수강생 진도율 확인 -------------
 SELECT
     u.name AS 이름,
     c.title AS 강의명,
-    cp.progress AS 진도
+    cp.progress AS '진도(%)'
 FROM
     cos_progress cp
 INNER JOIN

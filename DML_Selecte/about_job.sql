@@ -1,6 +1,6 @@
 ---- 공고 목록 전체 조회 -------
 ------- 대략적인 내용만 조회 ---
-SELECT id, name, area, target FROM job;
+SELECT id, name AS 공고명 , area AS 지역 , target AS 자격요건 FROM job;
 ------------------------------
 
 ------- 공고 상세 조회 --------
