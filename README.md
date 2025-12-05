@@ -286,6 +286,93 @@
 </div>
 </details>
 
+<details>
+<summary>글조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/글조회.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>게시글 내 댓글조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/게시글 내 댓글 조회.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>특정강의 검색</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/특정강의 검색.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>특정강의 상세 검색</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/특정강의 상세검색.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>수강취소 조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/수강취소 조회.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>장바구니 목록조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/장바구니 목록조회.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>수강신청한 목록 조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/수강신청한 목록 조회.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>특정 강의 평점 조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/특정강의 평점조회.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>특정강의 리뷰조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/특정강의 리뷰조회.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>수강생 별 진도 확인</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/수강생 별 진도 확인.png" />
+  
+</div>
+</details>
+
+<details>
+<summary>채용공고 조회</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/공고조회.png" />
+  
+</div>
+</details>
 
 <br>
 <br>
