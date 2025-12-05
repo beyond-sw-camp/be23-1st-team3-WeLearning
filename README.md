@@ -255,7 +255,7 @@
 # 8. DB 설계
 
 <details>
-  <summary>🧩 테이블 구조</summary>
+  <summary>🧩 기능 구조</summary>
   <div markdown="1">
     <img alt="image" src="Images/프로젝트 구조.png" />
   </div>
