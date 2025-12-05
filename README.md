@@ -4,10 +4,10 @@
   <img src="Images/브랜드 이미지.png" alt="[로고]" width="400"/>
 </p>
 
-   # 어디서든, 누구나, 더 똑똑하게			
+  <h1 align="center">어디서든, 누구나, 더 똑똑하게</h1>	
 
-   당신의 성장을 이어주는 WeLearning			
-   지금 바로 새로운 배움을 시작해보세요!			
+   <p align="center">당신의 성장을 이어주는 WeLearning	
+   지금 바로 새로운 배움을 시작해보세요!		</p>	
 
 ## 👤 팀원
 
@@ -52,21 +52,20 @@
 
 1. [프로젝트 개요](#1-프로젝트-개요)  
    
-2. [주요 기능](#2-주요-기능)  
+2. [주요 기능](#2-주요-기능)
+3. [기술스택](#3-기술스택) 
 
-3. [WBS](#3-wbs)  
+4. [WBS](#4-wbs)  
 
-4. [UML](#4-uml)  
+5. [UML](#5-uml)  
 
-5. [요구사항 명세서](#5-요구사항-명세서)  
+6. [요구사항 명세서](#6-요구사항-명세서)  
 
-6. [DB 모델링](#6-db모델링)
+7. [DB 모델링](#7-db모델링)
 
-7. [DB 서버 구축 (리플리케이션)](#7-db-서버-구축-리플리케이션)  
+8. [DB 서버 구축](#8-db-서버-구축)  
 
-8. [테스트 케이스](#8-테스트-케이스)  
-
-9. [회고](#9-회고)  
+9. [테스트 케이스](#9-테스트-케이스)   
    
 
 <br/>
@@ -123,7 +122,56 @@
 
 <br>
 
-# 3. WBS
+# 3. 기술스택
+
+
+📌 개발 환경
+---
+
+🔧
+ DBMS
+<p>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
+</p>
+
+---
+
+📌
+ 협업 및 관리 도구
+🤝
+ 협업 도구
+<p>
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+</p>
+
+🗂
+ 버전 및 이슈 관리
+<p>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
+
+📊
+ 데이터 관리
+<p>
+  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/>
+</p>
+
+---
+
+📌
+ ERD 및 다이어그램 도구
+<p>
+  <img src="https://img.shields.io/badge/ERDCloud-1F4E79?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Draw.io-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white"/>
+</p>
+
+
+<br>
+
+<br>
+
+# 4. WBS
 
 <details>
 <summary>WBS</summary>
@@ -136,7 +184,7 @@
 
 <br>
 
-# 4. UML
+# 5. UML
 
 <details>
 <summary>UseCase Diagram</summary>
@@ -149,7 +197,7 @@
 
 <br>
 
-# 5. 요구사항 명세서
+# 6. 요구사항 명세서
 
 <details>
 <summary>회원</summary>
@@ -190,7 +238,7 @@
 
 <br>
 
-# 6. DB모델링
+# 7. DB모델링
 <details>
 <summary>ERD</summary>
 <div markdown="1">
@@ -202,3 +250,24 @@
 
 <br>
 
+# 8. DB 서버 구축
+
+#### master 서버 연동
+<p align = "center">
+<img src = 'https://github.com/user-attachments/assets/c6dbec7f-5efe-4e5d-8040-fe644ca22c88'>
+</p>
+
+<br>
+<br>
+
+# 9. 테스트 케이스
+
+#### master 서버 연동
+<p align = "center">
+<img src = 'https://github.com/user-attachments/assets/c6dbec7f-5efe-4e5d-8040-fe644ca22c88'>
+</p>
+
+<br>
+<br>
+
+<br>
