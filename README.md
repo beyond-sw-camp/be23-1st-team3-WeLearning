@@ -251,6 +251,14 @@
 <br>
 
 # 8. DB 설계
+
+<details>
+  <summary>🧩 테이블 구조</summary>
+  <div markdown="1">
+    <img alt="image" src="Images/프로젝트 구조.png" />
+  </div>
+</details>
+
 <details>
 <summary>📐 DB 설계</summary>
 <div markdown="1">
