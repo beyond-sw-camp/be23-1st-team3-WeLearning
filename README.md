@@ -90,20 +90,6 @@
 
 또한 강의–기술 태그–직무–채용 정보 간의 관계를 체계적으로 구축해 학습자의 관심 분야에 대한 맞춤 채용 추천이 가능하며, 수강 기록을 기반으로 한 직무 매칭, 스킬 기반 채용 필터링 등 기존 플랫폼에서는 제공하지 않는 커리어 지향적 추천 시스템을 구현할 수 있다. 이를 통해 학습자는 단순한 지식 습득을 넘어 실제 취업 기회로 이어지는 경험을 제공받으며, 플랫폼은 교육과 경력을 자연스럽게 연결하는 새로운 가치를 창출한다.
 
-## Tech Stack
-
-**🗄️ Database** <br>
-<img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white">
-
-**🐧 Operating System & Virtualization**<br>
-<img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> <img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/virtualbox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white">
-
-**🛠️ Version Control & Collaboration**<br>
-<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/google_Docs-4285F4?style=for-the-badge&logo=googleDocs&logoColor=white">
-
-**💻 IDE**<br>
-<img src="https://img.shields.io/badge/intellij_idea-000000?style=for-the-badge&logo=intellijidea&logoColor=white">
-
 
 # 2. 주요 기능
 
