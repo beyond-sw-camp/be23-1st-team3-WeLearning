@@ -63,9 +63,7 @@
 
 7. [DB 모델링](#7-db모델링)
 
-8. [DB 서버 구축](#8-db-서버-구축)  
-
-9. [테스트 케이스](#9-테스트-케이스)   
+8. [테스트 케이스](#8-테스트-케이스)   
    
 
 <br/>
@@ -250,30 +248,8 @@
 
 <br>
 
-# 8. DB 서버 구축
 
-<details>
-<summary>로그인 성공</summary>
-<div markdown="1">
-
-<img width="3500" alt="image" src="Images/로그인성공이미지.png" />
-
-</div>
-</details>
-
-<details>
-<summary>로그인 실패</summary>
-<div markdown="1">
-
-<img width="500" alt="image" src="Images/로그인실패이미지.png" />
-
-</div>
-</details>
-
-<br>
-<br>
-
-# 9. 테스트 케이스
+# 8. 테스트 케이스
 
 <details>
 <summary>로그인 성공/실패</summary>
