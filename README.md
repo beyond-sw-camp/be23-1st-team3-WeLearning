@@ -386,6 +386,82 @@
     </ul>
 </details>
 
+<details>
+    <summary>리뷰쓰기 프로시저</summary>
+    <ul>
+        <li><details>
+            <summary>리뷰쓰기 전 테이블</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_유저.png" />
+                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_전_강사.png" />
+                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_전_강의.png" />
+                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_전_리뷰.png" />
+                <p>50%이상 강의 수강자임을 확인</p> <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_진도율.png" />
+            </div>
+        </details></li>  
+        <li><details>
+            <summary>리뷰쓰기</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_입력문_성공.png" />
+            </div>
+        </details></li>      
+        <li><details>
+            <summary>리뷰 완료 후 테이블 확인</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_후_리뷰.png" />
+                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_후_강사.png" />
+                <img width="450" alt="image" src="Images2/리뷰쓰기/리뷰_후_강의.png" />
+            </div>
+        </details></li>      
+    </ul>
+</details>
+
+<details>
+    <summary>리뷰쓰기에러 프로시저</summary>
+    <ul>
+        <li><details>
+            <summary>강사가 리뷰를 쓰는 경우</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/수강생아님_입력.png" />
+                <br>
+                <img alt="image" src="Images2/리뷰쓰기/수강생아님_결과.png" />
+            </div>
+        </details></li>  
+        <li><details>
+            <summary>없는 강의에 대한 리뷰 입력</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/없는강의_입력.png" />
+              <br>
+                <img alt="image" src="Images2/리뷰쓰기/없는강의_결과.png" />
+            </div>
+        </details></li>      
+        <li><details>
+            <summary>잘못된 이메일 입력 후 리뷰작성</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/잘못된_이메일_입력.png" />
+              <br>
+                <img alt="image" src="Images2/리뷰쓰기/잘못된_이메일_입력_에러코드.png" />
+            </div>
+        </details></li>      
+      <li><details>
+            <summary>평점 범위 초과 후 입력</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/잘못된_평점_입력.png" />
+              <br>
+                <img alt="image" src="Images2/리뷰쓰기/잘못된_평점_결과.png" />
+            </div>
+        </details></li>  
+      <li><details>
+            <summary>진도율 50% 미만자가 리뷰 쓴 경우</summary>
+            <div markdown="1">
+                <img width="450" alt="image" src="Images2/리뷰쓰기/진도율_미달_셋업.png" />
+              <img width="450" alt="image" src="Images2/리뷰쓰기/진도율_미달_입력.png" />
+              <br>
+                <img alt="image" src="Images2/리뷰쓰기/진도율_미달_결과.png" />
+            </div>
+        </details></li>  
+    </ul>
+</details>
 
 
 <br>
