@@ -252,22 +252,40 @@
 
 # 8. DB 서버 구축
 
-#### master 서버 연동
-<p align = "center">
-<img src = 'https://github.com/user-attachments/assets/c6dbec7f-5efe-4e5d-8040-fe644ca22c88'>
-</p>
+<details>
+<summary>로그인 성공</summary>
+<div markdown="1">
+
+<img width="3500" alt="image" src="Images/로그인성공이미지.png" />
+
+</div>
+</details>
+
+<details>
+<summary>로그인 실패</summary>
+<div markdown="1">
+
+<img width="500" alt="image" src="Images/로그인실패이미지.png" />
+
+</div>
+</details>
 
 <br>
 <br>
 
 # 9. 테스트 케이스
 
-#### master 서버 연동
-<p align = "center">
-<img src = 'https://github.com/user-attachments/assets/c6dbec7f-5efe-4e5d-8040-fe644ca22c88'>
-</p>
+<details>
+<summary>로그인 성공/실패</summary>
+<div markdown="1">
+<img width="450" alt="image" src="Images/로그인확인code.png" />
+  <br>
+<img width="450" alt="image" src="Images/로그인성공이미지.png" />
+<img width="450" alt="image" src="Images/로그인실패이미지.png" />
+
+</div>
+</details>
+
 
 <br>
-<br>
-
 <br>
