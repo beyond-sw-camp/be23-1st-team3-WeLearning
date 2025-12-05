@@ -256,7 +256,14 @@
 <div markdown="1">
 
 <img width="250" height="845" alt="image" src="Images/db설계.png" />
-
+</div>
+</details>
+<details>
+<summary>🗒️ 테이블 정의서</summary>
+<div markdown="1">
+  <img alt="image" src="Images/DB 프로젝트 db nice - 테이블 정의서_page-0001.jpg " />
+  <img alt="image" src="Images/DB 프로젝트 db nice - 테이블 정의서_page-0002.jpg " />
+  <img alt="image" src="Images/DB 프로젝트 db nice - 테이블 정의서_page-0003.jpg " />
 </div>
 </details>
 
