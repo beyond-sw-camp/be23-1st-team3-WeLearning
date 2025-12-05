@@ -205,7 +205,7 @@
 <summary>ERD</summary>
 <div markdown="1">
 
-<img width="1543" height="1094" alt="image (3)" src="https://github.com/user-attachments/assets/18c18188-2283-4a69-ab43-46fde759e74f" />
+<img width="1543" height="1094" alt="image (3)" src="Images/DBERDWeLearning.png" />
 
 </div>
 </details>
